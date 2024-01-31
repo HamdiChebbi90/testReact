@@ -1,0 +1,79 @@
+.home-page {
+  background-image: url(../assets/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+  width: 100%;
+  opacity: 40%;
+  display: flex;
+    flex-direction: column;
+    
+    
+}
+.rotated-text h1{
+    margin: 0;
+    
+   
+
+  
+}
+.rotated-text {
+ bottom: 220%;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+    margin-left: 15px;
+    margin-top: 85px;
+
+
+
+
+  
+
+}
+.secondline {
+font-family: "Oswald";
+  font-size: 35px;
+color:#ff4d20;
+font-weight: bold;
+transform: translateY(-50%);
+transform: translateX(10%);
+
+
+
+
+
+
+}
+.firstline {
+font-family: "Oswald";
+  font-size: 35px;
+color:white;
+font-weight: bold;
+
+}
+
+.logo {
+  width: 100px; /* adjust as needed */
+  height: auto;
+  margin-left: 25px;
+  margin-top: 25px;
+  
+}
+.right {
+  position: absolute;
+  right: 0;
+  width: 380px;
+}
+
+h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  margin-left: 16px;
+  margin-right: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
