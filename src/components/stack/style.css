@@ -1,0 +1,27 @@
+.stack{
+    display: flex   ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  height: 834px;
+  width: 1096px;
+
+  
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.follow{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    background-color: white;
+    height: 54px;
+}
+
+

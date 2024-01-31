@@ -3,8 +3,8 @@ import {Routes, Route} from 'react-router-dom';
 import HomePage from './home/HomePage';
 
 import Banner from './components/banner/banner';
-import Stack from './components/stack/stack';
-
+import Contact from './components/contact/contact';
+import GetApp from './components/getapp/getApp';
 function App() {
   return (
     <div className="App">
@@ -12,10 +12,10 @@ function App() {
     
     <Routes>
     <Route path="/" element={<HomePage />} />
+    <Route path="/contact" element={<Contact />} />
+    <Route path="/getapp" element={<GetApp />} />
     
     </Routes>
-
-
     </div>
 
 
